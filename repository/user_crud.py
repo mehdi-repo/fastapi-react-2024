@@ -43,3 +43,5 @@ def update_user_role(db: Session, user_id: int, new_role: str):
 
 class RoleUpdateRequest(BaseModel):
     new_role: constr(strip_whitespace=True, min_length=3, max_length=20)
+
+    

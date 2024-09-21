@@ -14,9 +14,20 @@
 > 
 > SQLite Database
 >
+> python3 -m venv venv
 > 
-Installation
+> 
+# Installation MAC
 > pip install -r requirements.txt
-> 
- Usage
+> source venv/bin/activate
+
+Installation Windows
+> pip install -r requirements.txt
+> .\env\Scripts\activate.bat
+
+
+# Usage
 > python main.py
+> cd onlineshop
+> npm install 
+> npm start

@@ -1,4 +1,11 @@
 
+# npm install bootstrap
+# npm install jwt-decode
+# npm install react-bootstrap
+# npm install axios
+# npm install react-router-dom
+# npx create-react-app my-app
+
 
 from typing import List
 from fastapi import  Depends, HTTPException,APIRouter
