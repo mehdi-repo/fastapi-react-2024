@@ -1,0 +1,39 @@
+.custom-card {
+    width: 287px;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ddd; /* Optional: Add a border */
+    border-radius: 0.25rem; /* Optional: Add rounded corners */
+    overflow: hidden; /* Ensure content does not overflow */
+}
+
+.custom-card img {
+    width: 100%;
+    height: 200px; /* Ensure image takes up the desired height */
+    object-fit: cover; /* Ensure image covers the area without distortion */
+}
+
+.card-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; /* Center text */
+}
+
+.card-body h5 {
+    font-size: 1rem; /* Adjust as needed */
+}
+
+.card-body p {
+    font-size: 0.9rem; /* Adjust as needed */
+}
+
+/* Ensure responsiveness */
+@media (max-width: 767px) {
+    .custom-card {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
