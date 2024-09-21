@@ -28,6 +28,7 @@ pip install -r requirements.txt
 
 # Usage
 > python main.py
+>
 > cd onlineshop /
 > npm install /
 > npm start/
