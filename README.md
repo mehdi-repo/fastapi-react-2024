@@ -12,11 +12,9 @@
 ## FastAPI contains
 > FastAPI application (Models, Routes, Repository)
 > 
-> FastAPI CRUD operations 
-> 
 > SQLite Database
 >
-> python3 -m venv venv
+> RactAPP
 > 
 > 
 # Installation MAC
